@@ -11,10 +11,7 @@
 .post__content {
   display: flex;
   align-items: center;
-}
-
-.post__name {
-  margin: 0 auto;
+  justify-content: center;
 }
 
 @media (min-width: 481px) {
