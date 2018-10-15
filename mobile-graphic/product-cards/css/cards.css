@@ -2,8 +2,12 @@
   
   .products {
     display: flex;
-    align-items: stretch;
+    align-items: flex-start;
   } 
+
+  .product {
+    width: 32%;
+  }
 
   .product:nth-child(3n+2) {
     margin-right: 2%;
