@@ -1,20 +1,18 @@
 .page {
   display: flex;
+  flex-direction: row;
 }
 
 @media (min-width: 961px) {
-  .page {
-    flex-direction: row-reverse;
-  }
-
   .aside {
     flex-basis: 320px;
     min-width: 320px;
-    margin: 40px;
+    margin-right: 40px;
   }
 
   .content {
     width: 100%;
+    order:  1;
   }
 }
 
