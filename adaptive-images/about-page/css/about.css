@@ -1,9 +1,16 @@
-.page {
-  display: flex;
-  flex-direction: row;
+@media (max-width: 960px) {
+
+  .aside__menu {
+    display: none;
+  }
 }
 
 @media (min-width: 961px) {
+
+  .page {
+    display: flex;
+  }
+
   .aside {
     flex-basis: 320px;
     min-width: 320px;
@@ -13,15 +20,5 @@
   .content {
     width: 100%;
     order:  1;
-  }
-}
-
-@media (max-width: 960px) {
-  .page {
-    flex-direction: column;
-  }  
-
-  .aside__menu {
-    display: none;
   }
 }
